@@ -1,0 +1,26 @@
+@import url(./contents/cabecalho.css);
+@import url(./contents/intro.css);
+@import url(./contents/chamada.css);
+@import url(./contents/conteudo.css);
+@import url(./contents/rodape.css);
+
+
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --fonte-titulo: 'Xanh Mono', monospace;
+    --fonte-texto: 'Tajawal', sans-serif;
+
+    --whitepink: rgba(255, 200, 240, 0.252);
+    --pink-searchbar: rgba(255, 200, 240, 0.075);
+    --darkpink: rgba(254, 150, 226, 0.187);
+    --pink: rgb(255, 192, 203);
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte-texto);
+}

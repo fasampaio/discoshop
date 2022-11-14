@@ -1,0 +1,6 @@
+.rodape {
+    background-color: var(--pink);
+    text-align: center;
+    padding: 1rem;
+    line-height: 2rem;
+}

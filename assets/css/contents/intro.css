@@ -1,0 +1,30 @@
+.intro {
+    padding: 1rem;
+    background-color: var(--whitepink);
+}
+
+.intro__titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 1.7rem;
+}
+
+.intro__texto {
+    line-height: 1.2rem;
+    padding: .5rem 1.5rem 0;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .intro {
+        padding: 2rem;
+    }
+
+    .intro__titulo {
+        font-size: 2.2rem;
+    }
+
+    .intro__texto {
+        font-size: 1.3rem;
+    }
+}
