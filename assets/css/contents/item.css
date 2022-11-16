@@ -1,0 +1,39 @@
+.item {
+    background-color: var(--darkpink);
+    box-sizing: border-box;
+    border-radius: 1rem;
+    display: grid;
+    grid-template-areas: 
+        "capa"
+        "artista"
+        "titulo"
+        "preco";
+    grid-template-columns: 150px;
+    grid-template-rows: 100px 1fr 1fr 1fr;
+    justify-items: center;
+    gap: .3rem;
+    padding: .5rem;
+}
+
+.item__capa {
+    grid-area: capa;
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 100px;
+    max-height: 100px;
+    padding-bottom: .2rem;
+    align-content: center;}
+
+.item__artista {
+    grid-area: artista;
+   text-transform: uppercase;
+   font-weight: 700;
+}
+
+.item__titulo {
+    grid-area: titulo;
+}
+
+.item__preco {
+    grid-area: preco;
+}

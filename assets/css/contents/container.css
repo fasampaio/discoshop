@@ -1,0 +1,46 @@
+@media screen and (min-width: 1440px) {
+    .container {
+        display: grid;
+        grid-template-areas:
+            "novidades novidades"
+            "prevenda prevenda"
+            "albuns singles";
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto auto;
+    }
+    
+    .container__novidades {
+        grid-area: novidades;
+    }
+
+    .container__prevenda {
+        grid-area: prevenda;
+    }
+
+    .container__albuns {
+        grid-area: albuns;
+        border-right: 5px solid var(--turquesa);
+    }
+
+    .container__singles {
+        grid-area: singles;
+        border-left: 5px solid var(--turquesa);
+    }
+}
+
+@media screen and (min-width: 1800px) {
+    .container {
+        grid-template-areas: 
+            "novidades prevenda"
+            "albuns singles";
+        grid-template-rows: auto auto;
+    }
+
+    .container__novidades {
+        border-right: 5px solid var(--turquesa);
+    }
+
+    .container__prevenda {
+        border-left: 5px solid var(--turquesa);
+    }
+}

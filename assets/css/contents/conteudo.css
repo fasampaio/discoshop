@@ -12,47 +12,6 @@
     gap: .5rem;
 }
 
-.conteudo__item {
-    background-color: var(--darkpink);
-    box-sizing: border-box;
-    border-radius: 1rem;
-    display: grid;
-    grid-template-areas: 
-        "capa"
-        "artista"
-        "album"
-        "preco";
-    grid-template-columns: 150px;
-    grid-template-rows: 100px 1fr 1fr 1fr;
-    justify-items: center;
-    gap: .3rem;
-    padding: .5rem;
-}
-
-.conteudo__capa {
-    grid-area: capa;
-    min-width: 100px;
-    max-width: 100px;
-    min-height: 100px;
-    max-height: 100px;
-    padding-bottom: .2rem;
-    align-content: center;
-}
-
-.conteudo__titulo {
-    grid-area: artista;
-   text-transform: uppercase;
-   font-weight: 700;
-}
-
-.conteudo__subtitulo {
-    grid-area: album;
-}
-
-.conteudo__preco {
-    grid-area: preco;
-}
-
 @media screen and (min-width: 768px) {
     .conteudo__lista {
         padding: 2rem;
@@ -62,7 +21,19 @@
 
 @media screen and (min-width: 1024px) {
     .conteudo__lista {
-        padding: 2rem;
+        padding: 2rem 12rem;
         gap: 1rem;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    .conteudo__lista {
+        padding: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .conteudo__lista {
+        padding: 2rem;
     }
 }

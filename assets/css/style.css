@@ -1,7 +1,9 @@
 @import url(./contents/cabecalho.css);
 @import url(./contents/intro.css);
+@import url(./contents/container.css);
 @import url(./contents/chamada.css);
 @import url(./contents/conteudo.css);
+@import url(./contents/item.css);
 @import url(./contents/rodape.css);
 
 
@@ -17,6 +19,7 @@
     --pink-searchbar: rgba(255, 200, 240, 0.075);
     --darkpink: rgba(254, 150, 226, 0.187);
     --pink: rgb(255, 192, 203);
+    --turquesa: rgba(154, 255, 131, 0.741);
 }
 
 body {
